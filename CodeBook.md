@@ -13,4 +13,4 @@
 3. features contains names for the x_data dataset.
 4. A similar approach is taken with activity names through the activities variables.
 5. all_data merges x_data, y_data and subject_data in a big dataset
-6. averages_data contains the relevent averages which will be stored in a .txt file.
+6. averages_data contains the relevent averages which will be stored in a .txt file. ddply() from the plyr package is used to apply colMeans() and ease the development.
